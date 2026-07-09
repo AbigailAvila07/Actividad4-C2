@@ -43,6 +43,7 @@ public class Interfaz extends JFrame {
         JButton btnRegistrar = new JButton("Registrar");
         gbc.gridx = 1;
         gbc.gridy = 3;
+        gbc.fill = GridBagConstraints.NONE;
         gbc.anchor = GridBagConstraints.EAST;
         panel.add(btnRegistrar, gbc);
 
